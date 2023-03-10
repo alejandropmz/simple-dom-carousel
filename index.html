@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <title>Simple Carousel | Alejandro Pacheco Full Stack Developer</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- title -->
+    <div class="title">
+      <h1>Reviews</h1>
+      <div id="button-border">
+      </div>
+    </div>
+
+    <!-- carousel -->
+    <div class="full-carousel">
+      <div class="carousel">
+        <div class="carousel-img">
+          <img id="img"
+            src="https://images.unsplash.com/photo-1628563694622-5a76957fd09c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zdGFncmFtJTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+            alt="">
+        </div>
+        <div class="name-role">
+          <p id="name"></p>
+          <p id="role"></p>
+        </div>
+        <div class="description">
+          <p id="description"></p>
+        </div>
+        <div class="arrows">
+          <i id="left-button" class="bi bi-caret-left"></i>
+          <i id="right-button" class="bi bi-caret-right"></i>
+        </div>
+        <button id="button">random</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
